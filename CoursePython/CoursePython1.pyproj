@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{47c3a1b0-84ed-4e26-a17f-7a940928f0e3}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile />
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>Global|PythonCore|3.7</InterpreterId>
+    <TestFramework>Pytest</TestFramework>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Section03 - Introduction Language Python\DirAndHelp.py" />
+    <Compile Include="Section03 - Introduction Language Python\PEP8.py" />
+    <Compile Include="Section03 - Introduction Language Python\ReceivingDataUser.py" />
+    <Compile Include="Section04 - Variables and Type Data\ScopeVariables.py" />
+    <Compile Include="Section04 - Variables and Type Data\TypeBoolean.py" />
+    <Compile Include="Section04 - Variables and Type Data\TypeNone.py" />
+    <Compile Include="Section04 - Variables and Type Data\TypeNumericFloat.py" />
+    <Compile Include="Section04 - Variables and Type Data\TypeNumericInt.py" />
+    <Compile Include="Section04 - Variables and Type Data\TypeString.py" />
+    <Compile Include="Section05 - Logical and Conditional Structures in Python\ConditionalStructures.py" />
+    <Compile Include="Section05 - Logical and Conditional Structures in Python\StructuresLogicals.py" />
+    <Compile Include="Section06 - Loop Structures in Python\ExitingLoopsWithBreak.py" />
+    <Compile Include="Section06 - Loop Structures in Python\LoopFor.py" />
+    <Compile Include="Section06 - Loop Structures in Python\LoopWhile.py" />
+    <Compile Include="Section06 - Loop Structures in Python\UnderstandingExploringRanges.py" />
+    <Compile Include="Section07 - Python Collections\Dictionary.py" />
+    <Compile Include="Section07 - Python Collections\Lists%28Array%29.py" />
+    <Compile Include="Section07 - Python Collections\Maps.py" />
+    <Compile Include="Section07 - Python Collections\ModuleCollectionsCounter.py" />
+    <Compile Include="Section07 - Python Collections\ModuleCollectionsDefaultDict.py" />
+    <Compile Include="Section07 - Python Collections\ModuleCollectionsDeque.py" />
+    <Compile Include="Section07 - Python Collections\ModuleCollectionsNamedTuple.py" />
+    <Compile Include="Section07 - Python Collections\ModuleCollectionsOrderedDict.py" />
+    <Compile Include="Section07 - Python Collections\Sets.py" />
+    <Compile Include="Section07 - Python Collections\Tuples.py" />
+    <Compile Include="Section08 - Functions in Python\DefineFunctions.py" />
+    <Compile Include="Section08 - Functions in Python\FunctionsWithDocstrings.py" />
+    <Compile Include="Section08 - Functions in Python\FunctionsWithReturn.py" />
+    <Compile Include="Section08 - Functions in Python\FunctionWithParameter.py" />
+    <Compile Include="Section08 - Functions in Python\FunctionWithParameterStandard.py" />
+    <Compile Include="Section08 - Functions in Python\UnderstandingARGS.py" />
+    <Compile Include="Section08 - Functions in Python\UnderstandingKWARGS.py" />
+    <Compile Include="Section09 - Comprehensions In Python\DictionaryComprehension.py" />
+    <Compile Include="Section09 - Comprehensions In Python\ListComprehension.py" />
+    <Compile Include="Section09 - Comprehensions In Python\NestedLists.py" />
+    <Compile Include="Section09 - Comprehensions In Python\SetComprehension.py" />
+    <Compile Include="Section10 - Expression Lambdas And Functions Integrate\AnyAndAll.py" />
+    <Compile Include="Section10 - Expression Lambdas And Functions Integrate\ExpressionLambdas.py" />
+    <Compile Include="Section10 - Expression Lambdas And Functions Integrate\Filter.py" />
+    <Compile Include="Section10 - Expression Lambdas And Functions Integrate\Generators.py" />
+    <Compile Include="Section10 - Expression Lambdas And Functions Integrate\LenAbsSumandRound.py" />
+    <Compile Include="Section10 - Expression Lambdas And Functions Integrate\Map.py" />
+    <Compile Include="Section10 - Expression Lambdas And Functions Integrate\MinAndMax.py" />
+    <Compile Include="Section10 - Expression Lambdas And Functions Integrate\Reduce.py" />
+    <Compile Include="Section10 - Expression Lambdas And Functions Integrate\Reversed.py" />
+    <Compile Include="Section10 - Expression Lambdas And Functions Integrate\Sorted.py" />
+    <Compile Include="Section10 - Expression Lambdas And Functions Integrate\Zip.py" />
+    <Compile Include="Section11 - Debugging And Handling Errors\MostCommonErrorsInPython.py" />
+    <Compile Include="Section11 - Debugging And Handling Errors\PDB.py" />
+    <Compile Include="Section11 - Debugging And Handling Errors\Raise.py" />
+    <Compile Include="Section11 - Debugging And Handling Errors\TryExcept.py" />
+    <Compile Include="Section11 - Debugging And Handling Errors\TryExceptElseFinally.py" />
+    <Compile Include="Section12 - Working With Models And Packeds In Python\Built-InModel.py" />
+    <Compile Include="Section12 - Working With Models And Packeds In Python\CustomModel.py" />
+    <Compile Include="Section12 - Working With Models And Packeds In Python\DunderMainDunderName.py" />
+    <Compile Include="Section12 - Working With Models And Packeds In Python\ExternalModules.py" />
+    <Compile Include="Section12 - Working With Models And Packeds In Python\Geek\geek1.py" />
+    <Compile Include="Section12 - Working With Models And Packeds In Python\Geek\geek2.py" />
+    <Compile Include="Section12 - Working With Models And Packeds In Python\Geek\university\geek3.py" />
+    <Compile Include="Section12 - Working With Models And Packeds In Python\Geek\university\geek4.py" />
+    <Compile Include="Section12 - Working With Models And Packeds In Python\Geek\university\__init__.py" />
+    <Compile Include="Section12 - Working With Models And Packeds In Python\Geek\__init__.py" />
+    <Compile Include="Section12 - Working With Models And Packeds In Python\Packed.py" />
+    <Compile Include="Section12 - Working With Models And Packeds In Python\RandomModel.py" />
+    <Compile Include="Section13 - Read And Write Files\BlockWith.py" />
+    <Compile Include="Section13 - Read And Write Files\ModeFiles.py" />
+    <Compile Include="Section13 - Read And Write Files\ReadFiles.py" />
+    <Compile Include="Section13 - Read And Write Files\SeekAndCursors.py" />
+    <Compile Include="Section13 - Read And Write Files\StringIO.py" />
+    <Compile Include="Section13 - Read And Write Files\SystemFilesNavigation.py" />
+    <Compile Include="Section13 - Read And Write Files\SystemFilesNavigationManipulation.py" />
+    <Compile Include="Section13 - Read And Write Files\WriteFiles.py" />
+    <Compile Include="Section14 - Iterators And Generators In Python\CreateLoops.py" />
+    <Compile Include="Section14 - Iterators And Generators In Python\Generators.py" />
+    <Compile Include="Section14 - Iterators And Generators In Python\IteratorCustom.py" />
+    <Compile Include="Section14 - Iterators And Generators In Python\TestMemoryGenerators.py" />
+    <Compile Include="Section14 - Iterators And Generators In Python\TestVelocityWithExpresionGenerators.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Section14 - Iterators And Generators In Python\UnderstandingIteratorsAndIterables.py" />
+    <Compile Include="Section15 - DecoratorsInPython\Decorators.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Section15 - DecoratorsInPython\DecoratorsWithDifferentsAssignature.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Section15 - DecoratorsInPython\ForceTypeDataWithDecorators.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Section15 - DecoratorsInPython\HigherOrderFunctions.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Section15 - DecoratorsInPython\PreservingMetadataWithWraps.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Section16 - ObjectOrientationWithPython\AbstractionAndEncapsulation.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Section16 - ObjectOrientationWithPython\Attributes.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Section16 - ObjectOrientationWithPython\Class.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Section16 - ObjectOrientationWithPython\Methods.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Section16 - ObjectOrientationWithPython\ObjectOrientation.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Section16 - ObjectOrientationWithPython\Objects.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Section17 - InheritanceAndPolymorphism\Inheritance.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Section17 - InheritanceAndPolymorphism\MagicMethods.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Section17 - InheritanceAndPolymorphism\MethodResolutionOrder.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Section17 - InheritanceAndPolymorphism\MultipleInheritance.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Section17 - InheritanceAndPolymorphism\Polymorphism.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Section17 - InheritanceAndPolymorphism\SuperMethod.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Section17 - InheritanceAndPolymorphism\Property.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Section18 - ManipulatingCSVAndJsonFiles\KnowingPickle.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Section18 - ManipulatingCSVAndJsonFiles\ReadingFilesCSV.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Section18 - ManipulatingCSVAndJsonFiles\WorkingWithJsonAndPickle.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Section18 - ManipulatingCSVAndJsonFiles\WritingFilesCSV.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Section13 - Read And Write Files\arquivo-teste.txt" />
+    <Content Include="Section13 - Read And Write Files\EntradasUsuario.txt" />
+    <Content Include="Section13 - Read And Write Files\texto.txt" />
+    <Content Include="Section13 - Read And Write Files\university.txt" />
+    <Content Include="Section18 - ManipulatingCSVAndJsonFiles\animais.pickle" />
+    <Content Include="Section18 - ManipulatingCSVAndJsonFiles\Felix.json" />
+    <Content Include="Section18 - ManipulatingCSVAndJsonFiles\FilmesDictWriter.csv" />
+    <Content Include="Section18 - ManipulatingCSVAndJsonFiles\FilmesWriter.csv" />
+    <Content Include="Section18 - ManipulatingCSVAndJsonFiles\Lutadores.csv" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Section18 - ManipulatingCSVAndJsonFiles\" />
+    <Folder Include="Section17 - InheritanceAndPolymorphism\" />
+    <Folder Include="Section16 - ObjectOrientationWithPython\" />
+    <Folder Include="Section15 - DecoratorsInPython\" />
+    <Folder Include="Section03 - Introduction Language Python" />
+    <Folder Include="Section04 - Variables and Type Data" />
+    <Folder Include="Section05 - Logical and Conditional Structures in Python" />
+    <Folder Include="Section06 - Loop Structures in Python" />
+    <Folder Include="Section07 - Python Collections" />
+    <Folder Include="Section08 - Functions in Python" />
+    <Folder Include="Section09 - Comprehensions In Python" />
+    <Folder Include="Section10 - Expression Lambdas And Functions Integrate" />
+    <Folder Include="Section11 - Debugging And Handling Errors" />
+    <Folder Include="Section12 - Working With Models And Packeds In Python" />
+    <Folder Include="Section12 - Working With Models And Packeds In Python\Geek" />
+    <Folder Include="Section12 - Working With Models And Packeds In Python\Geek\university" />
+    <Folder Include="Section13 - Read And Write Files" />
+    <Folder Include="Section14 - Iterators And Generators In Python" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|PythonCore|3.7" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="env\">
+      <Id>env</Id>
+      <Description>env (Python 3.7 (64-bit))</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <Version>3.7</Version>
+      <Architecture>X64</Architecture>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+    </Interpreter>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>

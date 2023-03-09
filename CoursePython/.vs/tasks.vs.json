@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "tarefa-Geek",
+      "appliesTo": "Section12 - WorkingWithModelsAndPackedsInPython/Geek/",
+      "type": "launch"
+    }
+  ]
+}
